@@ -1,0 +1,219 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#054f2a;
+    font-size: 65px;
+    font-weight: bold;
+}
+nav ul{
+    background-color: #a2cd96;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+nav ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.navbar{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.encabezado{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    background-color: #a2cd96;
+    text-align:justify;
+    justify-content: space-between;
+    padding: 0px 43px ;
+    align-items: center;
+
+}
+.subtitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #054f2a;
+    font-size: 65px;
+    font-weight: bold;
+}
+.productos{
+    text-align: center;
+    border-color:#054f2a;
+    align-items: center;
+}
+.carrito{
+    background-color: #054f2a;
+    color: rgb(252, 252, 252);
+}
+.playlist{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    font-size: 25px;
+    text-align: left;
+    background-color: #a2cd96;
+    color:#054f2a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 43px;
+}
+.destacados {
+    background-color: #a2cd96;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 0.3fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+
+.tit_destacados {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    color:#054f2a;
+    grid-column: 1/4;
+    grid-row: 1/1;
+    text-align:left;
+
+}
+.mate1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #054f2a;
+    grid-template-columns: 1/2;
+    grid-row: 2/2;
+    align-items: center;
+}
+.mate2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #054f2a;
+    grid-column: 2/3;
+    grid-row: 2/2;
+    align-items:center;
+}
+.mate3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #054f2a;
+    grid-column: 3/4;
+    grid-row: 2/2;
+
+}
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #a2cd96;
+    margin-left: 0px;
+    background-color: #054f2a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+/* Adaptación responsive celular */ 
+@media (max-width:390px) {
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:#054f2a;
+        font-size: 30px;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-weight: bold;
+        padding: 10px 10px;
+    }
+    
+    nav ul li {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 5px;
+        font-size: 13px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3px 3px;
+    }
+    .playlist{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: auto;
+        font-size: 20px;
+        text-align: left;
+        background-color: #a2cd96;
+        color:#054f2a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 43px;
+    }
+    .destacados {
+        background-color: #a2cd96;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 0.3fr 1fr;
+        grid-column-gap: 4px;
+        grid-row-gap: 5px;
+    
+    
+    .tit_destacados {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        margin-left: 20px;
+        color:#054f2a;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        text-align:left;
+    
+    }
+    .mate1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        text-align: center;
+        color: #054f2a;
+        grid-template-columns: 1/2;
+        grid-row: 2/3;
+        align-items: center;
+    }
+    .mate2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        text-align: center;
+        color: #054f2a;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        align-items:center;
+    }
+    .mate3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        text-align: center;
+        color: #054f2a;
+        grid-column: 3/4;
+        grid-row: 2/3;
+    
+    }
+    }
+
+    footer{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color: #a2cd96;
+        margin-left: 0px;
+        background-color: #054f2a;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px 13px;
+    }
+}
